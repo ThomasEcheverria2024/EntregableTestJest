@@ -12,8 +12,8 @@ import { AppService } from './app.service';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'admin',
-      database: 'notebooks',
+      password: '421223', 
+      database: 'jest_olava', 
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true, 
     }),
@@ -21,6 +21,5 @@ import { AppService } from './app.service';
   ],
   controllers: [AppController],
   providers: [AppService],
-
 })
 export class AppModule {}
